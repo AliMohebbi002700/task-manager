@@ -15,7 +15,8 @@ export const AuthContainer = ({ header, children }: IAuthContainerProps) => {
         alignItems: "center",
         overflow: "hidden",
       }}
-      className="brightness-120">
+      className="brightness-120"
+    >
       <Typography fontSize={30} variant="h3" fontWeight={800} mb={4} mt={1}>
         {header}
       </Typography>
@@ -23,3 +24,4 @@ export const AuthContainer = ({ header, children }: IAuthContainerProps) => {
     </Box>
   );
 };
+// oiehduigfygfyihdjnfjnsdonfjdfnn
